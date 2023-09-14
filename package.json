@@ -1,0 +1,22 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "client":"npm start --prefix ./Potfolio"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodeexpress": "^1.0.0",
+    "nodejs": "^0.0.0"
+  }
+}
