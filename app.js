@@ -9,10 +9,10 @@ const app =express();
 
  //Portfolio\dist
  //Portfolio\index.html
-app.use(express.static(path.join( __dirname,'./Portfolio')))
+app.use(express.static(path.join( __dirname,'./Portfolio/dist')))
 app.use('*',function(req,res){
-    res.sendFile(path.join( __dirname,'/Portfolio/index.html'))
-})
+    res.sendFile(path.join( __dirname,'/dist/index.html'))
+});
 
 
 const PORT =process.env.PORT;
